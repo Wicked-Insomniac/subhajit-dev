@@ -1,0 +1,183 @@
+.contact-div {
+    padding: 2rem 0;
+    background-image: url('images/backgrounds/contact/contact-576px.png');
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+.contact-divs {
+    padding: 1rem;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+
+    .contact-left {
+        height: 30rem;
+    }
+}
+
+.con-para-1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #563d7c;
+    margin-bottom: 0rem;
+}
+
+.con-para-2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #86469c;
+    margin-bottom: 0rem;
+    line-height: 3rem;
+}
+
+.con-para-3 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #bc7fcd;
+    margin-bottom: 0rem;
+}
+
+.contact-right {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+}
+
+.contact-me-box {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: solid 2px #cfabd8;
+    padding: 2rem;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-me-box:focus {
+    box-shadow: 0px 0px 20px #563d7c
+}
+
+.contact-me-text {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #bc7fcd;
+}
+
+.con-name-box,
+.con-email-box,
+.con-message-box {
+    position: relative;
+    border: 2px solid #cfabd8;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    color: #cfabd8;
+    outline: none;
+
+}
+
+.con-name-box::placeholder,
+.con-email-box::placeholder,
+.con-message-box::placeholder {
+    color: #cfabd8;
+    /*position: absolute;  /* Allows placement in top left */
+    /*left: 10px;         /* Adjust left position as needed */
+    /*top: 10px;  /* Set font size as needed */
+    /*transform: translateY(-50%);*/
+}
+
+.con-name-box:focus,
+.con-email-box:focus,
+.con-message-box:focus {
+    border: 2px solid #bc7fcd;
+    color: #bc7fcd;
+}
+
+.submit-btn {
+    background-color: #bc7fcd;
+    border-radius: 1rem;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.or-text {
+    color: #bc7fcd;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.contact-icons {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30rem;
+}
+
+.contact-icons-div {
+    width: 221px;
+}
+
+.call-image,
+.mail-image,
+.whatsapp-image,
+.insta-image,
+.github-image {
+    width: 2rem;
+    height: auto;
+}
+
+/* Headline Responsive */
+
+@media (min-width: 576px) {
+
+    .con-para-1,.con-para-2,.con-para-3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .con-para-1,.con-para-2,.con-para-3 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .con-para-1,.con-para-2,.con-para-3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .con-para-1,.con-para-2,.con-para-3 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .con-para-1,.con-para-2,.con-para-3 {
+        font-size: 3rem;
+    }
+}

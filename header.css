@@ -1,0 +1,46 @@
+header {
+    background-color: #FEF8FF;
+    font-family: "League Spartan", sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 23rem;
+}
+
+.contact-button {
+    margin-right: 24px;
+    margin-left: 14px;
+    background-color: #BC7FCD;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.contact-button:hover {
+    background-color: #c597d1;
+    color: #8813a8;
+    border-color: #8813a8;
+}
+
+.my-name {
+    font-weight: 700;
+    margin-left: -24px;
+    color: #BC7FCD;
+}
+
+.home-page,
+.about-page,
+.projects-page {
+    color: #737373;
+    font-weight: bold;
+}
+
+.home-page:hover,
+.about-page:hover,
+.projects-page:hover {
+    color: #a7a5a5;
+    font-weight: bold;
+}

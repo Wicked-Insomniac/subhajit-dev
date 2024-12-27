@@ -1,0 +1,117 @@
+.about-me-page {
+    background-image: url('images/backgrounds/about/about-576px.png');
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    margin-top: -23px;
+}
+
+.about-me-section {}
+
+.abt-me {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.abt-des {
+    font-family: Arial, sans-serif;
+    color: #86469c;
+    font-size: 1rem;
+}
+
+.qual-exp {
+    margin-top: 2rem;
+}
+
+.about-me-1 {
+    background-color: transparent;
+}
+
+.abt {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.3s ease;
+    height: 100%;
+    border: 2px solid #fae8ff;
+    cursor: pointer;
+}
+
+.abt:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+/* Headline Responsive */
+
+@media (min-width: 576px) {
+
+    .abt-me {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .abt-me {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .abt-me {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .abt-me {
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .abt-me {
+        font-size: 3rem;
+    }
+}
+
+/* //Description Responsive */
+
+@media (min-width: 576px) {
+
+    .abt-des {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .abt-des {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .abt-des {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .abt-des {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .abt-des {
+        font-size: 1.5rem;
+    }
+}

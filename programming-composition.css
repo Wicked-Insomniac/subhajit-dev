@@ -1,0 +1,145 @@
+.prog-comp {
+    padding: 2rem 0;
+    /* background: linear-gradient(to left, #BC7FCD, #ffffff); */
+    height: fit-content;
+}
+
+.prog-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prog-comp-hd {
+    font-family: "League Spartan", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bolder;
+    color: #563d7c;
+}
+
+.comcom {
+    color: #bc7fcd;
+}
+
+.prog-comp-des {
+    font-family: Arial, sans-serif;
+    color: #86469c;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+.prog-comp-img {
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.prog-comp-image {
+    width: 100%;
+    /* Default width for extra small screens */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+@media (min-width: 576px) {
+    .prog-comp-image {
+        width: 100%;
+        /* Width for small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .prog-comp-image {
+        width: 100%;
+        /* Width for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .prog-comp-image {
+        width: 100%;
+        /* Width for large screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .prog-comp-image {
+        width: 100%;
+        /* Width for extra large screens */
+    }
+}
+
+/* Headline Responsive */
+
+@media (min-width: 576px) {
+
+    .prog-comp-hd {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .prog-comp-hd {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .prog-comp-hd {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .prog-comp-hd {
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .prog-comp-hd {
+        font-size: 3rem;
+    }
+}
+
+/* //Description Responsive */
+
+@media (min-width: 576px) {
+
+    .prog-comp-des {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .prog-comp-des {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .prog-comp-des {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .prog-comp-des {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .prog-comp-des {
+        font-size: 1.5rem;
+    }
+}
